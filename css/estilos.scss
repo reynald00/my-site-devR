@@ -1,4 +1,31 @@
 /* ===========================
-1. Importar Boostrap
+Importar Bootstrap
 =============================== */
-@import"../libs/bootstrap-4.4.1/scss/bootstrap"
+@import"../libs/bootstrap-4.4.1/scss/bootstrap";
+
+/* ===========================
+Sección Hero
+=============================== */
+.navbar {
+    background: #07273d !important;
+    transition: all 0.2s;
+}
+
+/* ===========================
+Sección Hero
+=============================== */
+.sectionHero{
+    padding: 100px 0px;
+    background: url(../images/section-hero/hero-background.jpg) center center no-repeat;
+    background-size: cover;
+}
+/* ===========================
+Media Query
+=============================== */
+@media (min-width: 992px){
+ /* Navbar*/
+ .navbar {
+    background: transparent !important;
+ }
+}
+
