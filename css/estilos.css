@@ -7793,6 +7793,19 @@ Sección Hero
   background-size: cover; }
 
 /* ===========================
+Sección Carousel
+=============================== */
+#carouselOpinions > .carousel-inner {
+  padding: 0px 80px; }
+
+/* ===========================
+Media Query
+=============================== */
+.section-opinions {
+  padding: 100px 0px;
+  background: #262431; }
+
+/* ===========================
 Media Query
 =============================== */
 @media (min-width: 992px) {
